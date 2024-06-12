@@ -1,10 +1,12 @@
 public class Voiture {
     private String marque;
     private int prix;
+    private int test; 
 
-    public Voiture(String marque, int prix) {
+    public Voiture(String marque, int prix, int test) {
         this.marque = marque;
         this.prix = prix;
+	this.test = test
 
     }
     public String getMarque() {
